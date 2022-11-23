@@ -1,0 +1,12 @@
+# HOW TO UPLOAD FILE TO GITHUB
+1. buka console
+buka console dan hubungkan ke github, contohnya seperti ini `git remote add origin https://github.com/Hana5i/tutorial_github.git`
+2. menghubungkan repository yang akan dihubungkan
+`git branch -M main`
+3. membuat file dan mengupload ke dalam kotak (dalam artian kotak di sini adalah tempat penyimpanan sebelum file dipush ke dalam github)
+`git add [nama file]` untuk mempermudah cukup tekan tab aja setelah penulisan nama filenya
+4. membuat commit yang jelas
+pastikan perubahan yang dilakukan dijelaskan di sini, sejelas mungkin. baik mengupload, menambah, mengubah, dijelaskan sejelas mungkin untuk memudahkan nantinya dalam pengecekan ulang file dengan kelompok. intinya supaya kegiatan yang kita lakukan terdokumentasikan dengan jelas.
+`git commit -m "hal apa yang dilakukan"`
+5. Push file ke dalam Github
+`git push -u origin main` *main di sini adalah nama folder di Github, bisa aja yang lain. kebetulan aja di repository ku namanya main. 
